@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* main > * {
+  padding: 0.5rem;
+} */
+
 li.discussion__container {
   list-style-type: none;
   width: 540px;
@@ -17,10 +21,14 @@ li.discussion__container > div {
 }
 
 div.discussion__avatar--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 0 0 0;
 }
 
 div.discussion__avatar--wrapper > img {
+  width: 48px;
   border-radius: 100%;
 }
 
@@ -36,6 +44,7 @@ h2.discussion__title {
 }
 
 div.discussion__information {
+  padding-top: 1rem;
   text-align: right;
 }
 
